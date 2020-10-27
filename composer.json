@@ -1,0 +1,34 @@
+{
+    "name": "pangeaos/gigya",
+    "description": "Laravel wrapper for php sdk of Gigya API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pangeaos",
+            "email": "adrian@pangeaos.com"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "git",
+          "url": "https://github.com/pangeaos/gigya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Digitalatrium\\Gigya\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Digitalatrium\\Gigya\\GigyaServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
